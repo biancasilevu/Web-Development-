@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone ="yes" ?>
+<Activities>
+	<Activity> 
+		<activity>Dirt Biking</activity>
+		<description>Rev up your glamping stay with an exciting dirt-biking ride through scenic trails. With expert guidance and stunning views, it’s the perfect burst of outdoor adventure before you unwind in comfort.</description>
+		<duration>60 mins</duration>
+		<price>£60/hr</price>
+		<imgUrl>
+			https://eskipaper.com/images/dirt-bike-wallpaper-7.jpg
+		</imgUrl>
+	</Activity>
+	<Activity>
+		<activity>Nature Walks</activity>
+		<description>Enjoy peaceful, guided nature walks through beautiful surroundings. Discover local wildlife, scenic paths, and quiet moments in nature—an easy, refreshing addition to your glamping stay.</description>
+		<duration>60 mins</duration>
+		<price>£25/hr</price>
+		<imgUrl>~/images/naturewalks.jpg</imgUrl>
+	</Activity>
+	<Activity>
+		<activity>Survival Foraging</activity>
+		<description>Discover how to find edible plants and natural resources with our guided survival foraging experience. Learn essential skills, explore the landscape, and connect with nature in a whole new way.</description>
+		<duration>60 mins</duration>
+		<price>£25/hr</price>
+		<imgUrl>~/images/survivalforaging.jpg</imgUrl>
+	</Activity>
+	<Activity>
+		<activity>Wildlife Studies</activity>
+		<description>Explore the wonders of the natural world with hands-on wildlife studies. Observe local animals in their habitats, learn from knowledgeable guides, and deepen your connection to nature during your glamping retreat.</description>
+		<duration>30 mins</duration>
+		<price>£30/hr</price>
+		<imgUrl>~/images/wildlifestudies.jpg</imgUrl>
+	</Activity>
+	<Activity>
+		<activity>Orienteering</activity>
+		<description>Sharpen your navigation skills with our hands-on orienteering experience. Learn to read maps, use a compass, and explore the terrain as you find your way through nature’s pathways. A fun and engaging adventure for all skill levels.</description>
+		<duration>60 mins</duration>
+		<price>£45/hr</price>
+		<imgUrl>~/images/orienteering.jpg</imgUrl>
+	</Activity>
+</Activities>

@@ -1,0 +1,69 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Template.master.cs" Inherits="MPW9.Template" %>
+
+<!DOCTYPE html>
+<html>
+
+<head runat="server">
+    <title></title>
+    <link href="Styles/TemplateStyles.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            font-size: 65px;
+            font-family: 'Playfair Display', serif;
+            color: #2E1705;
+            margin: 0;
+            font-weight: normal;
+        }
+        .auto-style2 {
+            border-style: none;
+            border-color: inherit;
+            border-width: 0px;
+            margin: 10px auto;
+            width: 100%;
+            background-position: 0px 0px;
+            text-align: left;
+            height: 291px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <form id="form1" runat="server">
+   
+<div class="header2">
+    <div class="logo"></div>
+    <h1 class="auto-style1">Outdoor Living Centre</h1>
+</div>
+
+       
+        <div class="menubox">
+    <div class="menuinnerbox">
+        <asp:HyperLink ID="hylHome"  CssClass="menu-home" NavigateURL="Homepage.aspx" runat="server">Home</asp:HyperLink>
+        <asp:HyperLink ID="hylActivites"  CssClass="menu-activities" NavigateURL="Activities.aspx" runat="server">Activities</asp:HyperLink>
+        <asp:HyperLink ID="hylAccommodation"  CssClass="menu-accommodation" NavigateURL="Accommodation.aspx" runat="server">Accomodation</asp:HyperLink>
+        <asp:HyperLink ID="hylNewsandEvents"  CssClass="menu-newsandevents" NavigateURL="NewsandEvents.aspx" runat="server">News and Events</asp:HyperLink>
+        <asp:HyperLink ID="hylContact"  CssClass="menu-contact" NavigateURL="Contact.aspx" runat="server">Contact Us</asp:HyperLink>
+    </div>
+</div>
+        
+        <div class="header"> </div>
+        
+
+        <div class = "auto-style2">
+            <div>
+       
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                
+                </asp:ContentPlaceHolder>
+            </div>   
+        </div>
+        
+           
+    </form>
+</body>
+</html>
+
+

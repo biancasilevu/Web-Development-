@@ -1,0 +1,406 @@
+﻿body {
+    font-family: 'Playfair Display', serif;
+    background-color: #e3dac9;
+    background-repeat: repeat-x;
+    margin: 0 auto;
+    padding: 0;
+    top:0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    
+}
+
+.aboutus {
+    font-size: 20px;
+    font-family: 'Playfair Display', serif;
+    color: #2E1705;
+    text-align: center;
+    width: 80%;
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    justify-content: center;
+}
+
+
+.aboutus p {    
+    align-content:center;
+    text-align: center;
+    width: 105%;
+    max-width: 500px;
+    margin: auto;
+    height: 88px;
+}
+
+.aboutusimage1 {
+    background-size: cover;
+    background-position: center;
+    width: 100%; 
+    height: 300px;
+    margin:20px 0;
+    background-image: url('../images/tent.jpg')
+}
+
+.aboutusimage2 {
+    background-size: cover; 
+    background-position: center;
+    width: 100%;
+    height: 300px;
+    margin: 20px 0;
+    background-image: url('../images/naturewalks.jpg')
+}
+.aboutusimage3 {
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 300px; 
+    margin: 20px 0;
+    background-image: url('../images/pod.jpg')
+}
+.aboutus h2 {
+    font-size: 20px;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    text-align: center;
+    width: 100%;
+}
+.wrapper {
+    border: 1px solid #0000cc;
+    margin: 0px auto;
+    background-repeat: repeat-x;
+    width: 80%;
+    position: relative;
+    padding: 20px; 
+    box-sizing: border-box;
+    top: 3px;
+    left: -1px;
+}
+
+.box {
+    border-style: none;
+    border-color: inherit;
+    border-width: 0px;
+    margin: 10px;
+    width: 720px;
+    background-position: 0px 0px;
+    background-color: #ffcccc;
+    float: left;
+}
+
+.innerbox {
+    border-bottom: 0px;
+    border-left: 0px;
+    padding-bottom: 7px;
+    margin: 0px;
+    padding-left: 7px;
+    width: 706px;
+    padding-right: 7px;
+    background-position: 0px 100%;
+    border-top: 0px;
+    border-right: 0px;
+    padding-top: 7px;
+}
+
+.clearfloat {
+    border-bottom: 0px;
+    border-left: 0px;
+    background-color: #ffcccc;
+    margin: 10px;
+    clear: both;
+    border-top: 0px;
+    border-right: 0px;
+}
+
+.menubox {
+    width: 100%;
+    background-color: #2F4C2F;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menuinnerbox {
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    height: 60px; 
+}
+
+.menuinnerbox a {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Playfair Display', serif;
+    font-size: 25px;
+    padding: 10px 20px; 
+    transition: color 0.3s;
+}
+    .menuinnerbox a:hover {
+        background-color: #3E653E; 
+        padding: 15px 30px;
+    }
+
+.menu-home:hover {
+    background-color: #3E653E;
+    padding: 15px 30px;
+}
+
+.menu-activities:hover {
+    background-color: #3E653E; 
+    padding: 15px 30px;
+}
+
+.menu-accommodation:hover {
+    background-color: #3E653E; 
+    padding: 15px 30px;
+}
+
+.menu-contact:hover {
+    background-color: #3E653E;
+    padding: 15px 30px;
+}
+
+.menu-newsandevents:hover {
+    background-color: #3E653E;
+    padding: 15px 30px;
+}
+
+.header {
+    width: 100%;
+    min-height: 250px;
+    margin: 0 auto;
+    background-image: url('../images/glampingsite.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    
+}
+
+.header2 {
+    display: flex;
+    align-items: center; /* vertically centers logo + title */
+    justify-content: center; /* centers the whole group on the page */
+    gap: 20px; /* space between logo and title */
+}
+
+.logo {
+    height: 150px;
+    width: 150px;
+    background-image: url('../images/logo.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.title {
+    font-size: 80px;
+    font-family: 'Playfair Display', serif;
+    color: #2E1705;
+    margin: 0;
+}
+
+.calender {
+    width: 100%; 
+    max-width: 400px;
+    height: auto;
+    box-sizing: border-box;
+}
+
+.breadcrumb {
+    border-bottom: #0000cc 0px solid;
+    text-align: left;
+    border-left: #0000cc 0px solid;
+    margin: 0px auto 0px auto;
+    background-color: #ffcccc;
+    width: 720px;
+    height: 30px;
+    background-repeat: no-repeat;
+    border-top: #0000cc 0px solid;
+    border-right: #0000cc 0px solid;
+    float: left;
+}
+
+.threeColumnbox {
+    border-style: none;
+    border-color: inherit;
+    border-width: 0px;
+    background-color: #2F4C2F;
+    margin: 10px;
+    width: 230px;
+    background-position: 0px 0px;
+    float: left;
+}
+
+.pagetitle {
+    font-size: 80px;
+    font-family: 'Playfair Display', serif;
+    color: #1e0f03;
+    text-align: center;
+    padding: 20px;
+    margin:10px;
+}
+
+.acommodationtitle {
+    font-size: 60px;
+    font-family: 'Playfair Display', serif;
+    color: #1e0f03;
+    text-align: center;
+}
+
+
+.columntitle {
+    font-size: medium;
+    font-family: "Aptos Serif", serif;
+    color: #000000;
+    text-align: center;
+}
+
+
+
+.numberColumnbox {
+    border-style: none;
+    border-color: inherit;
+    border-width: 0px;
+    margin: 10px;
+    width: 130px;
+    background-position: 0px 0px;
+    background-color: #2F4C2F;
+    float: left;
+}
+
+.numberColumninnerbox {
+    border-style: none;
+    border-color: inherit;
+    border-width: 0px;
+    padding: 7px;
+margin: 17px 0px 0px 0px;
+    width: 295px;
+    background-position: 0px 100%;
+    height: 309px;
+}
+
+.container {
+    border-style: none;
+    border-color: inherit;
+    border-width: 0px;
+    margin: 10px auto; /* auto left/right centers it */
+    width: 646px;
+    background-position: 0px 0px;
+    text-align: left;
+}
+
+.contacttitle {
+    font-size: 80px;
+    font-family: 'Playfair Display', serif;
+    color: #1e0f03;
+    text-align: center;
+    padding: 20px;
+    margin: 100px;
+}
+
+.contactwrapper {
+    display: flex; /* Create a flex container */
+    /* Space between the two columns */
+    margin-top: 100px; /* Add some margin at the top */
+    align-content: center;
+    padding: 100px;
+    font-family: 'Playfair Display', serif;
+}
+
+.col1 {
+    flex: 1; /* Takes up equal space */
+    max-width: 400px; /* Max width for the form */
+    font-size: 20px
+}
+
+.col2 {
+    width: 100%;
+    height: 400px;
+    flex: 1; /* Takes up equal space */
+    font-size: 20px
+ 
+}
+
+/* Make the iframe responsive */
+iframe {
+    width: 100%; /* Make the iframe take up the full width of its container */
+    height: 350px; /* Set a fixed height */
+}
+
+.containernewsandevents {
+    display: flex;
+    width: 1850px; /* or any value larger than 100% */
+    gap: 40px;
+    margin: 20px;
+}
+
+.column {
+    font-family: 'Playfair Display', serif;
+    flex: 1; /* makes all 3 equal width */
+    background: #F6F3EE;
+    border: 1px solid #ccc;
+    min-width: 350px;
+    color: #2E1705;
+    margin: 20px;
+    padding: 20px;
+    font-size: 20px;
+}
+
+
+
+
+
+.contactbutton {
+    background-color: #2F4C2F; /* Green background */
+    color: white; /* White text */
+    padding: 12px 20px; /* Space inside the button */
+    border: none; /* Remove default border */
+    border-radius: 6px; /* Rounded corners */
+    cursor: pointer; /* Pointer on hover */
+    font-size: 16px
+}
+
+.three-columns {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.accom {
+    flex: 1;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    color: #1e0f03;
+    font-size: 20px;
+}
+
+    .accom img {
+        width: 100%;
+        height: 400px; /* adjust height if you want */
+        object-fit: cover; /* keeps the image beautifully cropped */
+        border-radius: 10px;
+        margin-bottom: 15px; /* adds spacing between image and text */
+    }
+
+.center-wrapper {
+    text-align: center; /* centers inline elements */
+    width: 100%;
+}
+
+.center-grid {
+    margin: 0 auto; /* centers block-level content */
+    display: block;
+}
+
+.title {
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 20px;
+    font-family: 'Playfair Display', serif;
+}
+
+.image-output {
+    text-align: center;
+    margin-top: 30px;
+}
